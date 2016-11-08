@@ -8,6 +8,7 @@
 *.slo
 *.lo
 *.o
+*.o.cmd
 *.obj
 
 # Precompiled Headers
@@ -33,3 +34,18 @@
 *.exe
 *.out
 *.app
+
+
+# Created by https://www.gitignore.io/api/vim
+
+### Vim ###
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
